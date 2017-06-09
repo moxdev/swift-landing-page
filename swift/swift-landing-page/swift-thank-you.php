@@ -72,9 +72,6 @@ ga('send', 'pageview');
         <div id="callout">Schedule your tour today<br/>
             <a href="tel:2028035047">202.803.5047</a>
         </div>
-        <div id="social">
-            <a href="https://www.facebook.com/TheSwiftApts/"><img src="swift-landing-page/images/swift-facebook-80.png" alt="link to Swift Petworth Facebook page"></a><a href="https://www.instagram.com/theswiftpetworthapts/"><img src="swift-landing-page/images/swift-instagram-80.png" alt="link to Swift Petworth instagram page"></a>
-        </div>
     </div>
 </header>
 <section id="thank-you">
