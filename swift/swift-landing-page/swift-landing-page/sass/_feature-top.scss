@@ -36,6 +36,7 @@
             h1 {
                 font-size: 2em;
                 text-align: left;
+                margin-right: calc(100% - 65%);
             }
         }
     }
@@ -70,6 +71,15 @@
             }
             p {
                 font-size: 1.4em;
+            }
+        }
+    }
+
+    @media screen and (min-width: 2300px){
+        article {
+
+            h1 {
+                margin-right: calc(100% - 50%);
             }
         }
     }

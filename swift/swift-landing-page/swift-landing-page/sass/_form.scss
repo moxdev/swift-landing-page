@@ -49,13 +49,13 @@
             label {
                 clear:both;
             }
-            input[id="first-name"], input[id="last-name"], input[id="email"]{
-                width: 300px;
+            input[id="first-name"], input[id="last-name"], input[id="email"], input[id="tel"]{
+                width: 465px;
             }
-            #first-name-wrapper, #last-name-wrapper, #email-wrapper{
+            #first-name-wrapper, #last-name-wrapper, #email-wrapper, #phone-wrapper{
                 float: left;
-                margin-right: 30px;
-                width: 303px;
+                // margin-right: 30px;
+                width: 50%;
             }
             textarea[id="comments"]{
                 width: 96.5%;

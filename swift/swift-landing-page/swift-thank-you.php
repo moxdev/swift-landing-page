@@ -34,11 +34,12 @@ if($_SERVER['REQUEST_METHOD']=="POST") {
 	$firstName=$_POST["first-name"];
 	$lastName=$_POST["last-name"];
 	$email=$_POST["email"];
+    $tel=$_POST["tel"];
 	$comments=$_POST["comments"];
 
 	$from="managementoffice@swiftpetworth.com";
 	$subject="I would like information about The Swift Petworth";
-	$message="First Name: ".$firstName."<br>"."Last Name: ".$lastName."<br>"."Email: ".$email."<br>"."Comments: ".$comments;
+	$message="First Name: ".$firstName."<br>"."Last Name: ".$lastName."<br>"."Email: ".$email."<br>". $tel."<br>" . "Comments: ".$comments;
 	$header='From: '.$from."\r\n".'Reply-To: '.$from."\r\n".'MIME-Version: 1.0'."\r\n".'Content-type: text/html; charser=iso-8859-1'."\r\n".'X-Mailer: PHP/'.phpversion();
 	@mail($to,$subject,$message,$header);
 }
@@ -70,7 +71,7 @@ ga('send', 'pageview');
             <img src="swift-landing-page/images/swift-logo.png" alt="The Swift Petworth logo">
         </div>
         <div id="callout">Schedule your tour today<br/>
-            <a href="tel:2028035047">202.803.5047</a>
+            <a href="tel:8443740436">844-374-0436</a>
         </div>
     </div>
 </header>
