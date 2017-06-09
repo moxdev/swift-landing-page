@@ -464,6 +464,7 @@ h3 {
     #property-features #community-features .disclaimer {
       display: block;
       margin: 1em 0; }
+<<<<<<< HEAD
 
 #photo-grid {
   float: right;
@@ -531,6 +532,75 @@ h3 {
 @media screen and (min-width: 2397px) {
   #photo-grid li {
     width: 49.82%; } }
+=======
+  #property-features #photo-grid {
+    text-align: center;
+    background: #fff; }
+    #property-features #photo-grid #grid-img-1, #property-features #photo-grid #grid-img-2 {
+      float: none;
+      margin: 0;
+      padding: 0; }
+    #property-features #photo-grid #grid-img-3 {
+      width: 100%;
+      text-align: center;
+      background-color: #EDEDED; }
+      #property-features #photo-grid #grid-img-3 img {
+        padding: 40px 0; }
+    #property-features #photo-grid .floorplan {
+      background-color: #EDEDED;
+      font-family: "Montserrat-Bold";
+      color: #333333;
+      text-align: center; }
+      #property-features #photo-grid .floorplan .last {
+        padding-bottom: 2em; }
+  @media screen and (min-width: 600px) {
+    #property-features #community-features {
+      padding: 1em 3em 0; }
+      #property-features #community-features ul {
+        margin: 0 2em 1em; } }
+  @media screen and (min-width: 1000px) {
+    #property-features #community-features {
+      float: left;
+      width: 48.5%;
+      font-size: 1.1em;
+      padding: .5em 1em .5em 2.5em;
+      line-height: 1.5; }
+      #property-features #community-features ul {
+        margin: 0; }
+    #property-features #photo-grid {
+      float: right;
+      width: 51%;
+      text-align: left; }
+      #property-features #photo-grid #grid-img-1 {
+        float: left;
+        margin-top: 0;
+        width: 49.5%; }
+      #property-features #photo-grid #grid-img-2 {
+        float: right;
+        margin: 0;
+        width: 49.5%; }
+      #property-features #photo-grid #grid-img-3 {
+        clear: both; } }
+  @media screen and (min-width: 1200px) {
+    #property-features #community-features {
+      padding: 1em 3em 0; }
+      #property-features #community-features h3 {
+        font-size: 1.6em; }
+      #property-features #community-features ul {
+        margin: 0 2em 1em; } }
+  @media screen and (min-width: 1400px) {
+    #property-features #community-features li {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 1750px) {
+    #property-features #community-features li {
+      font-size: 1.3em; } }
+  @media screen and (min-width: 2000px) {
+    #property-features #community-features li {
+      font-size: 1.5em; }
+    #property-features #grid-img-3 img {
+      width: 60%; } }
+
+>>>>>>> 5cbeffa... floorplans done
 /*--------------------------------------------------------------
 # Floor Plans Section
 --------------------------------------------------------------*/
