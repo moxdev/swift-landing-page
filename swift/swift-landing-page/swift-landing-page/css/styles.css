@@ -464,73 +464,73 @@ h3 {
     #property-features #community-features .disclaimer {
       display: block;
       margin: 1em 0; }
-  #property-features #photo-grid {
-    text-align: center;
-    background: #fff; }
-    #property-features #photo-grid #grid-img-1, #property-features #photo-grid #grid-img-2 {
-      float: none;
-      margin: 0;
-      padding: 0; }
-    #property-features #photo-grid #grid-img-3 {
-      width: 100%;
-      text-align: center;
-      background-color: #EDEDED; }
-      #property-features #photo-grid #grid-img-3 img {
-        padding: 40px 0; }
-    #property-features #photo-grid .floorplan {
-      background-color: #EDEDED;
-      font-family: "Montserrat-Bold";
-      color: #333333;
-      text-align: center; }
-      #property-features #photo-grid .floorplan .last {
-        padding-bottom: 2em; }
-  @media screen and (min-width: 600px) {
-    #property-features #community-features {
-      padding: 1em 3em 0; }
-      #property-features #community-features ul {
-        margin: 0 2em 1em; } }
-  @media screen and (min-width: 1000px) {
-    #property-features #community-features {
-      float: left;
-      width: 48.5%;
-      font-size: 1.1em;
-      padding: .5em 1em .5em 2.5em;
-      line-height: 1.5; }
-      #property-features #community-features ul {
-        margin: 0; }
-    #property-features #photo-grid {
-      float: right;
-      width: 51%;
-      text-align: left; }
-      #property-features #photo-grid #grid-img-1 {
-        float: left;
-        margin-top: 0;
-        width: 49.5%; }
-      #property-features #photo-grid #grid-img-2 {
-        float: right;
-        margin: 0;
-        width: 49.5%; }
-      #property-features #photo-grid #grid-img-3 {
-        clear: both; } }
-  @media screen and (min-width: 1200px) {
-    #property-features #community-features {
-      padding: 1em 3em 0; }
-      #property-features #community-features h3 {
-        font-size: 1.6em; }
-      #property-features #community-features ul {
-        margin: 0 2em 1em; } }
-  @media screen and (min-width: 1400px) {
-    #property-features #community-features li {
-      font-size: 1.2em; } }
-  @media screen and (min-width: 1750px) {
-    #property-features #community-features li {
-      font-size: 1.3em; } }
-  @media screen and (min-width: 2000px) {
-    #property-features #community-features li {
-      font-size: 1.5em; }
-    #property-features #grid-img-3 img {
-      width: 60%; } }
 
+#photo-grid {
+  float: right;
+  width: 52.5%;
+  text-align: left; }
+
+#photo-grid li:nth-child(2n+1) {
+  clear: left;
+  margin-left: 0; }
+
+#photo-grid li {
+  float: left;
+  margin: 0 0.3em .3em;
+  width: 49.5%; }
+
+#photo-grid li:nth-child(5),
+#photo-grid li:nth-child(6) {
+  margin-bottom: 0; }
+
+#photo-grid li:nth-child(2n) {
+  margin: 0; }
+
+@media screen and (min-width: 1117px) {
+  #photo-grid li {
+    width: 49.62%; } }
+@media screen and (min-width: 1174px) {
+  #photo-grid li {
+    width: 49.64%; } }
+@media screen and (min-width: 1241px) {
+  #photo-grid li {
+    width: 49.66%; } }
+@media screen and (min-width: 1313px) {
+  #photo-grid li {
+    width: 49.69%; } }
+@media screen and (min-width: 1350px) {
+  #photo-grid {
+    width: 51.5%; }
+
+  #community-features > h3 {
+    font-size: 1.6em; } }
+@media screen and (min-width: 1400px) {
+  #community-features li {
+    font-size: 1.2em; } }
+@media screen and (min-width: 1468px) {
+  #photo-grid li {
+    width: 49.72%; } }
+@media screen and (min-width: 1630px) {
+  #photo-grid li {
+    width: 49.74%; } }
+@media screen and (min-width: 1750px) {
+  #community-features li {
+    font-size: 1.3em; } }
+@media screen and (min-width: 1819px) {
+  #photo-grid li {
+    width: 49.77%; } }
+@media screen and (min-width: 1977px) {
+  #photo-grid li {
+    width: 49.79%; } }
+@media screen and (min-width: 2000px) {
+  #community-features li {
+    font-size: 1.5em; } }
+@media screen and (min-width: 2168px) {
+  #photo-grid li {
+    width: 49.81%; } }
+@media screen and (min-width: 2397px) {
+  #photo-grid li {
+    width: 49.82%; } }
 /*--------------------------------------------------------------
 # Floor Plans Section
 --------------------------------------------------------------*/
