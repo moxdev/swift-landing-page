@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 980px) {
+	#wrapper, #footer {
+		width:661px;
+	}
+	
+	#wrapper {
+		background:#fff;
+	}
+	
+	h1 {
+		text-align:left;
+	}
+	
+	#content-right {
+		float:none;
+	}
+	
+	#content-left {
+		width:100%;
+		background:url("http://www.highlandhouseapts.net/images/bg-footer.jpg") center top;
+	}
+	
+	#content-left:after {
+		content: " ";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height:0;
+	}
+	
+	#logo, form {
+		float:left;
+	}
+	
+	form {
+		width:49%;
+	}
+	
+	#logo {
+		margin-right:2em;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	
+	#wrapper, #footer {
+		width:520px;
+	}
+	
+	#main-content {
+		padding:.8em;
+	}
+	
+	#content-right {
+		width:auto;
+	}
+	
+	h2 {
+		font-size:2.9em;
+	}
+	
+	#ampersand {
+		font-size:9em;
+		height:145px;
+		padding-top:4px;
+	}
+	
+	#main-content ul {
+		padding:.6em 1.2em .6em 2.5em;
+	}
+	
+	li {
+		float:none;
+		width:auto;
+		padding-right:0;
+	}
+	
+	#logo img {
+		width:150px;
+	}
+	
+	#map-canvas {
+		width:495px;
+	}
+	
+	#footer {
+		font-size:.72em;
+	}
+	
+	#footer img {
+		margin-right:1em;
+		width:20px;
+	}
+	
+	#main-content iframe {
+		width:495px;
+		height:278px;
+	}
+	
+	#ftr-phone strong {
+		display:none;
+	}
+	
+	.tn3a-next, .tn3a-prev {
+		height:38px;
+		width:30px;
+	}
+	
+	.tn3a-next {
+		background-position:-105px -110px;
+	}
+	
+	.tn3a-next:hover, .tn3a-next:active {
+		background-position:-24px -110px;
+	}
+	
+	.tn3a-prev {
+		background-position:-105px -22px;
+	}
+	
+	.tn3a-prev:hover, .tn3a-prev:active {
+		background-position:-23px -22px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#wrapper, #footer, #map-canvas {
+		width:100%
+	}
+	
+	#main-content {
+		padding:0;
+	}
+	
+	h1 {
+		font-size:1.22em;
+	}
+	
+	h2 {
+		font-size:2.6em;
+	}
+	
+	h2 span, h4 span {
+		display:inline;
+	}
+	
+	h3, p {
+		margin-left:1em;
+		margin-right:1em;
+	}
+
+	#ampersand {
+		display:none;
+	}
+	
+	form {
+		width:90%;
+		padding:1.2em 0 1.2em 1.2em;
+	}
+	
+	#logo {
+		width:150px;
+		margin:0 auto;
+		padding-right:7%;
+		float:none;
+	}
+	
+	form h4 {
+		font-size:1.7em;
+	}
+	
+	#main-content iframe {
+		width:100%;
+	}
+
+}

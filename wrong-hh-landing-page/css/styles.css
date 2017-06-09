@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	background:#6D635C;
+	margin:0;
+}
+
+a img {
+	border:none;
+}
+
+h1 {
+	padding:0.5em .75em;
+	text-align:right;
+	font-weight:normal;
+	font-size:1.8em;
+	color:#FFF;
+	margin:0;
+	background:#6D635C;
+}
+
+h2 {
+	margin:0;
+	padding:0 0.25em;
+	font-size:3.6em;
+	border:1px solid #450007;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+}
+
+h2 span {
+	display:none;
+	color:#E0AC40;
+}
+
+#ampersand {
+	float:left;
+	color:#450007;
+	font-size:11.5em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:-.18em .1em 0 .05em;
+	padding:0;
+	height:185px;
+	overflow:hidden;
+}
+
+h3 {
+	color:#72000B;
+	border-bottom:2px solid #DAD8D6;
+	clear:both;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#72000B;
+	font-weight:normal;
+	font-style:italic;
+	font-size:2.1em;
+	margin:0 0 .5em 0;
+}
+
+h4 span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	display:block;
+	font-size:.6em;
+}
+
+#wrapper, #footer {
+	width:940px;
+	margin:0 auto;
+}
+
+#wrapper {
+	background:url(../imgs/bkgd-wrapper.gif) top center repeat-y;
+}
+
+#wrapper:after, #ampersand:after, #main-content ul:after, #footer:after, .gallery:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height:0;
+}
+
+#content-left {
+	width:278px;
+	padding-top:1em;
+	color:#FFF;
+}
+
+#content-right {
+	float:right;
+	width:661px;
+}
+
+#main-content {
+	padding:1.9em;
+}
+
+#tagline {
+	background:#72000B;
+	padding:1em;
+}
+
+.gallery {
+	margin-bottom:.5em;
+	overflow:hidden;
+	/*display:inline-block;*/
+}
+
+#main-content ul {
+	font-size:.82em;
+	line-height:1.2em;
+	margin:0 0 1em 0;
+	padding:0 1em;
+}
+
+li {
+	float:left;
+	width:45%;
+	padding-right:2em;
+	margin-bottom:1em;
+}
+
+#map-canvas {
+	height:200px;
+}
+
+#logo {
+	padding-left:1.3em;
+	display:block;
+	margin-bottom:1em;
+}
+
+#logo img {
+	width:219px;
+}
+
+#footer {
+	color:#FFFFFF;
+	font-size:.82em;
+	margin-bottom:1em;
+}
+
+#footer span {
+	display:block;
+}
+
+#ftr-address {
+	margin-top:1em;
+	margin-left:1em;
+}
+
+#ftr-phone {
+	font-size:2em;
+	margin-left:.5em;
+	margin-top:.45em;
+}
+
+#footer iframe {
+	width:200px;
+	height:26px;
+}
+
+#footer span {
+	float:left;
+	clear:both;
+}
+
+#footer img {
+	float:right;
+	width:28px;
+}
+
+form {
+	padding:1.25em;
+}
+
+label {
+	color: #72000B;
+	display:block;
+	padding:0 0 .25em 0;
+	font-size:.75em;
+}
+
+input, textarea {
+	padding:.5em;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+input {
+	margin-bottom:1.35em;
+	width:95%;
+	font-size:.85em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+textarea {
+	width:94%;
+	font-size:.87em;
+}
+
+#Submit {
+	background:#72000B;
+	color:#FFF;
+	width:auto;
+	text-transform:uppercase;
+	margin-top:1em;
+	margin-bottom:0;
+	font-size:.74em;
+}
+
+#Submit:hover {
+	cursor:pointer;
+}
+
+.tn3a-ctrls, .tn3a-timer, .tn3a-thumbs {
+	visibility:hidden;
+	display:none;
+}
