@@ -3,14 +3,74 @@
 #pre-footer{
     width: 100%;
     padding: 0;
-    .wrapper {
-        width: 100%;
+    position: relative;
+
+    .map-wrapper {
+        // width: 50%;
         background: #FFFFFF;
         position: relative;
         #map-canvas {
             max-width: 100%;
             height: 300px;
             position: relative;
+        }
+    }
+
+    .contact-wrapper {
+        // width: 50%;
+        background-color: $brand-color-1;
+
+        .contact-number {
+            text-align: center;
+            padding: 3em 2.5em;
+            font-size: 1.1em;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-family: $font-bold;
+            }
+        }
+    }
+
+    @media screen and (min-width:760px) {
+        .contact-wrapper {
+
+            .contact-number {
+                font-size: 1.3em;
+            }
+        }
+    }
+
+    @media screen and (min-width:1000px) {
+
+        .map-wrapper {
+            width: 50%;
+            float: left;
+            background: #FFFFFF;
+            position: relative;
+            #map-canvas {
+                max-width: 100%;
+                height: 300px;
+                position: relative;
+            }
+        }
+
+        .contact-wrapper {
+            width: 50%;
+            float: right;
+
+            .contact-number {
+                height: 300px;
+                text-align: center;
+                padding: 4em 2.5em;
+                font-size: 2em;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+            }
         }
     }
 }

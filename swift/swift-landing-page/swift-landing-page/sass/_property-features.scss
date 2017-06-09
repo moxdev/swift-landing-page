@@ -37,29 +37,16 @@
     #photo-grid {
         text-align: center;
         background: #fff;
-        #grid-img-1, #grid-img-2 {
-            float: none;
-            margin: 0;
-            padding: 0;
-        }
-        #grid-img-3 {
-            width: 100%;
-            text-align: center;
-            background-color: $floor-plan-background-color;
-            img {
-                padding: 40px 0;
-            }
-        }
-        .floorplan {
-            background-color: $floor-plan-background-color;
-            font-family: $font-bold;
-            color: $main-text-color;
-            text-align: center;
-            .last {
-                padding-bottom: 2em;
+
+        ul {
+            li {
+                float: none;
+                margin: 0;
+                padding: 2.5px 10px;
             }
         }
     }
+
     @media screen and ( min-width: 600px ){
         #community-features{
             padding: 1em 3em 0;
@@ -79,6 +66,14 @@
                 margin: 0;
             }
         }
+
+        #photo-grid {
+            ul {
+                li {
+                    padding: 1px;
+                }
+            }
+        }
         #photo-grid{
             float: right;
             width: 51%;
@@ -86,15 +81,32 @@
             #grid-img-1 {
                 float: left;
                 margin-top: 0;
-                width: 49.5%;
+                width: 50%;
             }
             #grid-img-2 {
                 float: right;
                 margin: 0;
-                width: 49.5%;
+                width: 50%;
             }
             #grid-img-3 {
-                clear: both;
+                float: left;
+                margin-top: 0;
+                width: 50%;
+            }
+            #grid-img-4 {
+                float: right;
+                margin: 0;
+                width: 50%;
+            }
+            #grid-img-5 {
+                float: left;
+                margin-top: 0;
+                width: 50%;
+            }
+            #grid-img-6 {
+                float: right;
+                margin: 0;
+                width: 50%;
             }
         }
     }
@@ -122,9 +134,6 @@
     @media screen and (min-width: 2000px){
         #community-features li{
             font-size: 1.5em;
-        }
-        #grid-img-3 img {
-            width: 60%;
         }
     }
 }
